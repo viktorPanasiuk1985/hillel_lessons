@@ -25,6 +25,7 @@ class GFG {
 
         try {
             int i = computeDivision(a, b);
+            //  int i = computeDivisionPlusAdd(a, b);
         } catch (ArithmeticException ex) {
             System.out.println(ex.getMessage());
         }
