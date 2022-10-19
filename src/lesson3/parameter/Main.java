@@ -31,6 +31,9 @@ public class Main
         Collection<Animal> animals = new ArrayList<Animal>();
         animals.add(new Cat());
         animals.add(new Dog());
+
+        Cat cat = new Cat();
+
         for (Animal a : animals)
         {
             System.out.println(a.talk());

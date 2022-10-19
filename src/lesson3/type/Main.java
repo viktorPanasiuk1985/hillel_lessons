@@ -12,7 +12,7 @@ public class Main {
     }
 }
 
-class Animal {
+abstract class Animal {
     public void voice() {
         System.out.println("");
     }
